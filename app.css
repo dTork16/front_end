@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');                           /*puts dark layer on the background image*/
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo img{
+    width: 100px;
+    height: 50px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+.links a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: white;
+}
+.links .btn{
+    background: white;
+    color: rgb(32, 32, 29);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.content{
+    margin-top: 300px;
+    color: white;
+}
+.content h1{
+    font-size: 50px;
+}
+.search-box{
+    width: fit-content;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 18px 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.search-box input{
+    width: 600px;
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+.search-box button{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.search-box button img{
+    width: 30px;
+}
+.links .navi{
+    margin-left: 20px !important;
+}
+span{
+    color: red;
+}
